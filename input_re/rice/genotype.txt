@@ -1,0 +1,2 @@
+The genotype files used in this study were obtained from the paper titled Genomic analysis of hybrid rice varieties reveals numerous superior alleles that contribute to heterosis. 
+The Genotype file can also be downloaded via the following link for easier access: https://iagr.genomics.cn/CropGS/#/Datasets?species=Rice.
