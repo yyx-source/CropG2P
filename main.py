@@ -127,7 +127,7 @@ if __name__ == "__main__":
     checkpoint = torch.load(args.best_model_path, map_location=torch.device('cpu'), weights_only=False)
     model.load_state_dict(checkpoint['model_state_dict'])
     model.eval()
-    
+
     with open("./output_re/SY/test_set.pkl", 'rb') as f:
         test_data = pickle.load(f)
     test_genotypes = test_data['genotypes']
