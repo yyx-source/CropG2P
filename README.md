@@ -91,10 +91,14 @@ VCF File: For SNP localization; required only if running saliency analysis.
 
 ### Model Training
 Train the CropG2P.
-You need to provide input files
+You need to provide input files, and then
 ```bash
 python main.py
 ```
+After training, the following files will be saved to ./save_re/:
+best_model_rice_SY_gated_inception.pt: Checkpoint of the best-performing model.
+
+training_metrics.csv: Evaluation metrics (R², MAE, RMSE) on the test set.
 
 ### Output
 
@@ -106,6 +110,7 @@ To run the demo, execute:
 ```bash
 python run_demo.py
 ```
+
 
 
 
