@@ -101,7 +101,12 @@ best_model_rice_SY_gated_inception.pt: Checkpoint of the best-performing model.
 training_metrics.csv: Evaluation metrics (R², MAE, RMSE) on the test set.
 
 ### Output
+All model outputs are organized in the ./output_re/ directory with clear subdirectories for each crop/trait:
+(1)Comprehensive evaluation metrics for each phenotypic trait (R², MAE, RMSE, PCC).
 
+(2)Scatter plots of predicted vs. actual phenotypic values for each trait 
+
+(3)Saliency score arrays for each trait
 
 ## Demo Instructions
 ### Run testing code
@@ -110,6 +115,7 @@ To run the demo, execute:
 ```bash
 python run_demo.py
 ```
+
 
 
 
