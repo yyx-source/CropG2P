@@ -47,19 +47,33 @@ pip install -r requirements.txt
 ```
 
 ## Instructions for use
-The example of testing model:
+This is a guide for using CropG2P to perform genomic prediction and identify important SNPs.
+### Data Preprocessing
+1. **Data Format Preparation**
+   Ensure your input data conforms to the following formats:
+   - **Genotypes**: A NumPy array (`.npy`) of shape `[n_samples, n_SNPs]` (float32). Missing values (NaN/Inf) will be automatically replaced with `0.0` by the code.
+   - **Phenotypes**: A PyTorch tensor (`.pt`) of shape `[n_samples, n_traits]` (float32).
+   - **Sample Names**: A text file (`.txt`) with one sample name per line, corresponding to the rows in the genotype/phenotype matrices.
+   - **SNP Positions**: A VCF file (`.vcf`) containing the chromosomal positions of SNPs, used for mapping saliency scores to physical locations.
+
+2. **File Placement**
+   Organize your data in the `input_re/` directory following the structure:
+
 ### Input data
 Genotype data; Phenotype data
 
-### 
+### Model Training
+
+
+### Output
+
+
+## Demo Instructions
 ### Run testing code
 To run the demo, execute:
 ```bash
 python main.py --demo
 ```
-### Output
-
-## Demo Instructions
 
 
 
