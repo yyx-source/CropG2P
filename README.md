@@ -20,7 +20,7 @@ This repository contains the Python code for the CropG2P project, supporting the
 ### Software Requirements
 - Operating System: Windows 10/11
 - Python Version: 3.10
-- Required Python packages:
+- Required Python packages dependencies:
 ```bash
 torch==2.5.1+cu118
 numpy==1.26.4
@@ -41,6 +41,7 @@ python main.py --demo
 ```
 
 ## Instructions for use
+
 
 
 
