@@ -101,10 +101,12 @@ python main.py
 
 ## Demo Instructions
 ### Run testing code
+### 
 To run the demo, execute:
 ```bash
-python main.py --demo
+python run_demo.py
 ```
+
 
 
 
