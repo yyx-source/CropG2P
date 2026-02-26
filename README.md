@@ -50,14 +50,17 @@ pip install -r requirements.txt
 This is a guide for using CropG2P to perform genomic prediction and identify important SNPs.
 ### Data Preprocessing
 Our pipeline includes a standardized data preprocessing workflow using **PLINK** for quality control and custom Python scripts for format conversion and alignment.
+
 (1) Data Preparation
    Ensure your input data conforms to the following formats:
    - **Genotypes**: A NumPy array (`.npy`) of shape `[n_samples, n_SNPs]` .
    - **Phenotypes**: A PyTorch tensor (`.pt`) of shape `[n_samples, n_traits]`.
    - **SNP Positions**: A VCF file (`.vcf`) containing the chromosomal positions of SNPs, used for mapping saliency scores to physical locations.
+
 (2) Dependencies Preparation
 Download the PLINK software (v1.9 or v2.0) suitable for your operating system.
 The preprocessing script `data_preprocessing/*.py` is configured for Windows using 'plink.exe'.
+
 (3) Automated Preprocessing Pipeline
 Run the following scripts in **numerical order** (0 to 4) to process raw genotype/phenotype data into the required input format:
 ```bash
@@ -67,6 +70,7 @@ data_preprocessing/2_convert_pheno.py:Phenotype Format Conversion
 data_preprocessing/3_filter_nan.py: Missing Value Imputation
 data_preprocessing/4_alignment_*.py: Aligns genotypes and phenotypes by sample ID
 ```
+
 (4) File Placement
 Organize your data in the `input_re/` directory following the structure:
 ```bash
@@ -98,6 +102,7 @@ To run the demo, execute:
 ```bash
 python main.py --demo
 ```
+
 
 
 
