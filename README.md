@@ -1,6 +1,14 @@
 # Leveraging Complete Genome-Wide Variations and Innerrelationships Improves Crop Genomic Prediction
 
+### Contents
+
+
+
 This repository contains the Python code for the CropG2P project, supporting the findings of our study.
+
+## Overview
+
+
 
 ## System Requirements
 
@@ -15,3 +23,4 @@ python main.py --demo
 
 ## Instructions for use
 How to
+
