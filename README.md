@@ -51,8 +51,8 @@ This is a guide for using CropG2P to perform genomic prediction and identify imp
 ### Data Preprocessing
 (1) Data Format Preparation
    Ensure your input data conforms to the following formats:
-   - **Genotypes**: A NumPy array (`.npy`) of shape `[n_samples, n_SNPs]` (float32). Missing values (NaN/Inf) will be automatically replaced with `0.0` by the code.
-   - **Phenotypes**: A PyTorch tensor (`.pt`) of shape `[n_samples, n_traits]` (float32).
+   - **Genotypes**: A NumPy array (`.npy`) of shape `[n_samples, n_SNPs]` .
+   - **Phenotypes**: A PyTorch tensor (`.pt`) of shape `[n_samples, n_traits]`.
    - **Sample Names**: A text file (`.txt`) with one sample name per line, corresponding to the rows in the genotype/phenotype matrices.
    - **SNP Positions**: A VCF file (`.vcf`) containing the chromosomal positions of SNPs, used for mapping saliency scores to physical locations.
 
@@ -79,6 +79,7 @@ To run the demo, execute:
 ```bash
 python main.py --demo
 ```
+
 
 
 
