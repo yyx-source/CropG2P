@@ -1,4 +1,5 @@
-# Leveraging Complete Genome-Wide Variations and Innerrelationships Improves Crop Genomic Prediction
+# CropG2P
+CropG2P: Leveraging Complete Genome-Wide Variations and Innerrelationships Improves Crop Genomic Prediction
 
 ### Contents
 - [Overview](#overview)
@@ -51,6 +52,7 @@ python main.py --demo
 ```
 
 ## Instructions for use
+
 
 
 
