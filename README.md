@@ -81,9 +81,12 @@ input_re/
 └── <crop_name>_snps.vcf
 ```
 ### Input data
-The model accepts the following core input data:
+The model accepts the following input data:
+
 Genotype data：`.npy`Format, Genome-wide SNP matrix.
+
 Phenotype data: `.pt` Format, Multi-trait phenotypic measurements for the same samples.
+
 VCF File: For SNP localization; required only if running saliency analysis.
 
 ### Model Training
@@ -102,6 +105,7 @@ To run the demo, execute:
 ```bash
 python main.py --demo
 ```
+
 
 
 
