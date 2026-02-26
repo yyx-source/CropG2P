@@ -5,12 +5,12 @@ CropG2P: Leveraging Complete Genome-Wide Variations and Innerrelationships Impro
 - [Overview](#overview)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
-- [Demo Instructions](#demo)
 - [Instructions for use](#Instructions-for-use)
+- [Demo Instructions](#demo-Instructions)
 
 ## Overview
 
-This repository contains the Python code for the CropG2P project, supporting the findings of our study.
+This repository contains the Python code for the CropG2P project. CropG2P is a multi-task machine learning-based GS model that improves predictive accuracy by leveraging genome-wide variations and correlations in agronomic traits. 
 
 
 ## System Requirements
@@ -46,8 +46,12 @@ git clone https://github.com/yyx-source/CropG2P
 pip install -r requirements.txt
 ```
 
-## Demo
+## Instructions for use
 The example of testing model:
+### Input data
+Genotype data; Phenotype data
+
+### 
 ### Run testing code
 To run the demo, execute:
 ```bash
@@ -55,7 +59,8 @@ python main.py --demo
 ```
 ### Output
 
-## Instructions for use
+## Demo Instructions
+
 
 
 
