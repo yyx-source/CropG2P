@@ -1,7 +1,7 @@
 # CropG2P
 CropG2P: Leveraging Complete Genome-Wide Variations and Innerrelationships Improves Crop Genomic Prediction
 
-### Contents
+## Contents
 - [Overview](#overview)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
@@ -48,14 +48,15 @@ pip install -r requirements.txt
 
 ## Demo
 The example of testing model:
-# Run testing code
+### Run testing code
 To run the demo, execute:
 ```bash
 python main.py --demo
 ```
-# Output
+### Output
 
 ## Instructions for use
+
 
 
 
