@@ -37,6 +37,7 @@ matplotlib==3.6.3
 ## Installation Guide
 
 ### Install from Github
+Install method by using git clone
 ```bash
 git clone https://github.com/yyx-source/CropG2P
 ```
@@ -52,6 +53,7 @@ python main.py --demo
 ```
 
 ## Instructions for use
+
 
 
 
