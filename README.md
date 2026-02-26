@@ -37,7 +37,7 @@ matplotlib==3.6.3
 ```bash
 git clone https://github.com/yyx-source/CropG2P
 cd CropG2P
-python3 setup.py install
+pip install -r requirements.txt
 ```
 
 ## Demo
@@ -47,6 +47,7 @@ python main.py --demo
 ```
 
 ## Instructions for use
+
 
 
 
