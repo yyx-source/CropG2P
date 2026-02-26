@@ -18,9 +18,11 @@ This repository contains the Python code for the CropG2P project, supporting the
 - NVIDIA GPU with ≥ 8 GB VRAM is recommended for accelerated training
 
 ### Software Requirements
+This package has been tested on the following systems:
 - Operating System: Windows 10/11
-- Python Version: 3.10
-- Required Python packages dependencies:
+
+### Python packages dependencies
+This package- Python Version: 3.10
 ```bash
 torch==2.5.1+cu118
 numpy==1.26.4
@@ -36,7 +38,9 @@ matplotlib==3.6.3
 ### Install from Github
 ```bash
 git clone https://github.com/yyx-source/CropG2P
-cd CropG2P
+```
+### Setting up the development environment
+```bash
 pip install -r requirements.txt
 ```
 
@@ -47,6 +51,7 @@ python main.py --demo
 ```
 
 ## Instructions for use
+
 
 
 
