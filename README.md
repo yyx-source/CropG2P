@@ -98,17 +98,6 @@ python main.py
 After training, the following files will be saved to ./save_re/:
 best_model_rice_SY_gated_inception.pt: Checkpoint of the best-performing model.
 
-training_metrics.csv: Evaluation metrics (R², MAE, RMSE) on the test set.
-
-### Output
-All model outputs are organized in the ./output_re/ directory with clear subdirectories for each crop/trait:
-
-(1)Comprehensive evaluation metrics for each phenotypic trait (R², MAE, RMSE, PCC).
-
-(2)Scatter plots of predicted vs. actual phenotypic values for each trait 
-
-(3)Saliency score arrays for each trait
-
 ## Demo Instructions
 Due to data size limitations, the test dataset required to reproduce the rice_SY results reported in the manuscript cannot be hosted on GitHub. To run the demo and reproduce these results:
 
@@ -121,6 +110,14 @@ Execute the demo script to reproduce the rice_SY results as presented in the man
 ```bash
 python run_demo.py
 ```
+
+All model outputs are organized in the ./output_re/ directory with clear subdirectories for each crop/trait:
+
+(1)Comprehensive evaluation metrics for each phenotypic trait (R², MAE, RMSE, PCC).
+
+(2)Scatter plots of predicted vs. actual phenotypic values for each trait 
+
+(3)Saliency score arrays for each trait
 
 
 
