@@ -109,12 +109,18 @@ All model outputs are organized in the ./output_re/ directory with clear subdire
 (3)Saliency score arrays for each trait
 
 ## Demo Instructions
-### Run testing code
-### 
-To run the demo, execute:
+Due to data size limitations, the test dataset required to reproduce the rice_SY results reported in the manuscript cannot be hosted on GitHub. To run the demo and reproduce these results:
+
+Access the test dataset via Figshare: https://doi.org/10.6084/m9.figshare.31424108.  
+
+Extract the dataset and place all downloaded files in the `./input_re/rice/` directory of the project
+
+Execute the demo script to reproduce the rice_SY results as presented in the manuscript:
+
 ```bash
 python run_demo.py
 ```
+
 
 
 
