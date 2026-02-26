@@ -4,11 +4,7 @@
 - [Overview](#overview)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
-- [Demo](#demo)
-- [Results](#results)
-- [License](#license)
-- [Issues](#issues)
-- [Citation](#citation)
+- [Demo](#demo-Instructions)
 
 
 This repository contains the Python code for the CropG2P project, supporting the findings of our study.
@@ -30,5 +26,6 @@ python main.py --demo
 
 ## Instructions for use
 How to
+
 
 
