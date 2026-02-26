@@ -33,6 +33,10 @@ matplotlib==3.6.3
 
 ## Installation Guide
 
+### Install from Github
+git clone https://github.com/yyx-source/CropG2P
+cd CropG2P
+python3 setup.py install
 
 ## Demo
 To run the demo, execute:
@@ -41,6 +45,7 @@ python main.py --demo
 ```
 
 ## Instructions for use
+
 
 
 
