@@ -47,12 +47,16 @@ pip install -r requirements.txt
 ```
 
 ## Demo
+The example of testing model:
+# Run testing code
 To run the demo, execute:
 ```bash
 python main.py --demo
 ```
+# Output
 
 ## Instructions for use
+
 
 
 
