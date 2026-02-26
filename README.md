@@ -27,6 +27,8 @@ numpy==1.26.4
 pandas==2.3.3
 scikit-learn==1.6.1
 scipy==1.15.1
+seaborn==0.13.2
+matplotlib==3.6.3
 ```
 
 ## Installation Guide
@@ -39,6 +41,7 @@ python main.py --demo
 ```
 
 ## Instructions for use
+
 
 
 
