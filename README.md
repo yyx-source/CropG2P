@@ -24,8 +24,10 @@ This repository contains the Python code for the CropG2P project, supporting the
 To run the demo, execute:
 ```bash
 python main.py --demo
+```
 
 ## Instructions for use
+
 
 
 
